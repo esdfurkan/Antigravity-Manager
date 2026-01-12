@@ -5,6 +5,7 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import en from "./locales/en.json";
 import zh from "./locales/zh.json";
 import ja from "./locales/ja.json";
+import tr from "./locales/tr.json";
 
 i18n
   // detect user language
@@ -24,6 +25,9 @@ i18n
       },
       ja: {
         translation: ja,
+      },
+      tr: {
+        translation: tr,
       },
       // Handling 'zh-CN' as 'zh'
       "zh-CN": {
