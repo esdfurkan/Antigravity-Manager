@@ -1,5 +1,6 @@
 {
     "common": {
+        "empty": "空",
         "loading": "載入中...",
         "load_more": "載入更多",
         "add": "新增",
@@ -162,7 +163,8 @@
             "restored": "已恢復",
             "deleted": "已刪除",
             "directory_opened": "已開啟裝置儲存目錄",
-            "original_fingerprint_not_found": "未找到原始指紋"
+            "original_fingerprint_not_found": "未找到原始指紋",
+            "storage_json_not_found": "未找到 storage.json，請確認 Antigravity 已運行過並生成配置文件"
         },
         "warmup_all": "一鍵預熱",
         "warmup_selected": "預熱 ({{count}})",

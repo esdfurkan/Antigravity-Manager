@@ -1,5 +1,6 @@
 {
     "common": {
+        "empty": "Пусто",
         "loading": "Загрузка...",
         "load_more": "Загрузить еще",
         "add": "Добавить",
@@ -162,7 +163,8 @@
             "restored": "Восстановлено",
             "deleted": "Удалено",
             "directory_opened": "Каталог хранения открыт",
-            "original_fingerprint_not_found": "Оригинальный отпечаток не найден"
+            "original_fingerprint_not_found": "Оригинальный отпечаток не найден",
+            "storage_json_not_found": "storage.json не найден, убедитесь, что Antigravity был запущен для создания файла конфигурации"
         },
         "warmup_all": "Разогреть все одним кликом",
         "warmup_selected": "Разогреть ({{count}})",

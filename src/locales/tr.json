@@ -1,5 +1,6 @@
 {
     "common": {
+        "empty": "Boş",
         "loading": "Yükleniyor...",
         "add": "Ekle",
         "copy": "Kopyala",
@@ -159,7 +160,8 @@
             "restored": "Geri yüklendi",
             "deleted": "Silindi",
             "directory_opened": "Depolama dizini açıldı",
-            "original_fingerprint_not_found": "Orijinal parmak izi bulunamadı"
+            "original_fingerprint_not_found": "Orijinal parmak izi bulunamadı",
+            "storage_json_not_found": "storage.json bulunamadı, lütfen Antigravity'nin yapılandırma dosyasını oluşturmak için çalıştırıldığından emin olun"
         },
         "quota_protected": "Korumalı",
         "details": {

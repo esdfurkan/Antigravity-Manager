@@ -78,7 +78,7 @@ pub fn get_storage_path() -> Result<PathBuf, String> {
         }
     }
 
-    Err("未找到 storage.json，请确认 Antigravity 已运行过并生成配置文件".to_string())
+    Err("storage_json_not_found".to_string())
 }
 
 /// 获取 storage.json 所在目录

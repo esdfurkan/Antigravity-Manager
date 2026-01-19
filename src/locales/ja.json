@@ -1,5 +1,6 @@
 {
     "common": {
+        "empty": "空",
         "loading": "読み込み中...",
         "add": "追加",
         "copy": "コピー",
@@ -166,7 +167,8 @@
             "restored": "復元しました",
             "deleted": "削除しました",
             "directory_opened": "ストレージディレクトリを開きました",
-            "original_fingerprint_not_found": "オリジナル指紋が見つかりません"
+            "original_fingerprint_not_found": "オリジナル指紋が見つかりません",
+            "storage_json_not_found": "storage.jsonが見つかりません。Antigravityが実行され、設定ファイルが生成されていることを確認してください"
         },
         "quota_protected": "保護中",
         "details": {

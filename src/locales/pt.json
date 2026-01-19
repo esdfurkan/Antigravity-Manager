@@ -1,5 +1,6 @@
 {
     "common": {
+        "empty": "Vazio",
         "loading": "Carregando...",
         "load_more": "Carregar mais",
         "add": "Adicionar",
@@ -162,7 +163,8 @@
             "restored": "Restaurado",
             "deleted": "Excluído",
             "directory_opened": "Diretório de armazenamento aberto",
-            "original_fingerprint_not_found": "Impressão digital original não encontrada"
+            "original_fingerprint_not_found": "Impressão digital original não encontrada",
+            "storage_json_not_found": "storage.json não encontrado, certifique-se de que o Antigravity foi executado para gerar o arquivo de configuração"
         },
         "warmup_all": "Aquecimento com Um Clique",
         "warmup_selected": "Aquecer ({{count}})",

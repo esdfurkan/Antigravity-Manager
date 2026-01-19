@@ -1,5 +1,6 @@
 {
     "common": {
+        "empty": "Trống",
         "loading": "Đang tải...",
         "load_more": "Tải thêm",
         "add": "Thêm mới",
@@ -160,7 +161,8 @@
             "restored": "Đã khôi phục",
             "deleted": "Đã xóa",
             "directory_opened": "Đã mở thư mục lưu trữ",
-            "original_fingerprint_not_found": "Không tìm thấy vân tay gốc"
+            "original_fingerprint_not_found": "Không tìm thấy vân tay gốc",
+            "storage_json_not_found": "Không tìm thấy storage.json, vui lòng đảm bảo Antigravity đã được chạy để tạo tệp cấu hình"
         },
         "warmup_all": "Làm nóng (Warmup) Tất cả",
         "warmup_selected": "Làm nóng ({{count}})",

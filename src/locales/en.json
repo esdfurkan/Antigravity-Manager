@@ -1,5 +1,6 @@
 {
     "common": {
+        "empty": "Empty",
         "loading": "Loading...",
         "load_more": "Load More",
         "add": "Add",
@@ -167,7 +168,8 @@
             "restored": "Restored",
             "deleted": "Deleted",
             "directory_opened": "Storage directory opened",
-            "original_fingerprint_not_found": "Original fingerprint not found"
+            "original_fingerprint_not_found": "Original fingerprint not found",
+            "storage_json_not_found": "storage.json not found, please ensure Antigravity has been run to generate the config file"
         },
         "warmup_all": "One-click Warmup",
         "warmup_selected": "Warmup ({{count}})",
