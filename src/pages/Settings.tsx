@@ -14,7 +14,7 @@ import { useTranslation } from 'react-i18next';
 
 
 function Settings() {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     const { config, loadConfig, saveConfig } = useConfigStore();
     const [activeTab, setActiveTab] = useState<'general' | 'account' | 'proxy' | 'advanced' | 'about'>('general');
     const [formData, setFormData] = useState<AppConfig>({
@@ -290,7 +290,11 @@ function Settings() {
                                 <select
                                     className="w-full px-4 py-4 border border-gray-200 dark:border-base-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 dark:text-base-content bg-gray-50 dark:bg-base-200"
                                     value={formData.language}
-                                    onChange={(e) => setFormData({ ...formData, language: e.target.value })}
+                                    onChange={(e) => {
+                                        const newLang = e.target.value;
+                                        setFormData({ ...formData, language: newLang });
+                                        i18n.changeLanguage(newLang);
+                                    }}
                                 >
                                     <option value="zh">简体中文</option>
                                     <option value="zh-TW">繁體中文</option>
